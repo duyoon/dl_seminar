@@ -1,6 +1,7 @@
 import random
 
-lists = ['daeung', 'bona', 'kyubo', 'seokmin', 'soyoung']
+lists = ['bona', 'daeung', 'jaewoo', 'jeongmin', 'junhwan',
+         'kyubo', 'minkyu', 'seokmin', 'sigue', 'soyoung']
 
 print('Lets figure out whos gonna be the one!!')
 

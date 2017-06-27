@@ -35,7 +35,6 @@ plt.text(0.5 * (a + b), 30,r"$\int_a^b f(x)dx$", horizontalalignment='center', f
 
 Compute the integral both at high accuracy and with the trapezoid approximation
 
-from __future__ import print_function
 from scipy.integrate import quad
 integral, error = quad(f, a, b)
 integral_trapezoid = sum( (xint[1:] - xint[:-1]) * (yint[1:] + yint[:-1]) ) / 2
